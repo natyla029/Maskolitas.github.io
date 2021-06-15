@@ -1,0 +1,193 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  color: #2c3e50;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #212529;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: ´Open Sans´, sans-serif;
+}
+
+
+/*Cabecera*/
+
+.navbar{
+  align-content: center;
+  background-color: #F348AD !important;
+  font-size: 20px;
+}
+
+nav a.nav-link:hover{
+  color: #FBED23!important;
+}
+
+  /*Fin de cabecera*/
+
+  /* Inicio Banner */
+
+  #carouselExampleIndicators .carousel-inner img{
+    width: 1110px;
+    height: 427px;
+  }
+
+/* Fin Banner */
+
+/* Inicio Nosotros */
+
+.bg-warning{
+  background-color: #8DD8F7 !important;
+  color: white;
+}
+
+.row .col-lg-6 img{
+  width: 434px;
+  height: 345px;
+}
+
+.fas{
+  color: rgb(234, 3, 140);
+}
+
+h2{
+  color: rgb(234, 3, 140);
+}
+
+.btn-warning{
+  background-color: rgb(234, 3, 140);
+  color: white;
+  border-color: rgb(234, 3, 140);
+}
+
+/* Fin Nosotros */
+
+/* Inicio Productos */
+
+.bg-danger{
+  background-color: #F348AD !important;
+  color: white;
+}
+
+.bg-danger .fas{
+  color: white;
+}
+
+.bg-danger h2{
+  color: white;
+}
+
+.row{
+  padding-top: 25px;
+}
+
+.col-4 img{
+  border-radius: 10px 10px 10px 10px;
+}
+
+.carousel-control-prev-icon{
+  background-color: black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: 5px solid black;
+  border-left: 0;
+}
+
+.carousel-control-next-icon{
+  background-color: black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: 5px solid black;
+  border-right: 0;
+}
+
+/*
+#carouselExampleInterval .carousel-inner img{
+  height: 150px;
+}
+*/
+
+/* Fin Productos */
+
+/* Recargas */
+
+.sombra{
+  filter: drop-shadow(2px 2px 6px white);
+}
+.imgcat{
+  max-width: 300px;
+}
+
+/* Fin Recargas */
+
+/* Contacto */
+
+.form-control{
+  border: none;
+}
+
+.btn{
+  background-color: rgb(234, 3, 140);
+}
+
+/* Fin Contacto */
+
+/*Footer*/
+
+footer{
+  background-color: #F348AD;
+  display: block;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+footer h3, footer p{
+  color: white;
+  text-align: center;
+}
+
+footer .redes-sociales a{
+  border: 2px solid white;
+  border-radius: 50px;
+  color: white;
+  display: inline-block;
+  margin: 0 10pt;
+}
+
+footer .redes-sociales a:hover{
+  background-color: white;
+  color: #2c3e50;
+}
+
+footer .redes-sociales a i{
+  width: 52px;
+  height: 52px;
+  font-size: 20pt;
+  vertical-align: middle;
+  line-height: 52px;
+  text-align: center; 
+}
+
+.container-fluid span{
+  background-color: #1A252F;
+  align-self: center;
+}
+
+.bg-darker{
+  background-color: #1a252f;
+  color: white;
+}
+
+/* Fin Footer */
+
